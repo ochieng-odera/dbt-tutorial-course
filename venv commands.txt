@@ -1,0 +1,21 @@
+create the virtual environment -the environment should sit inside you directory
+python -m venv dbt-tut
+
+activate the environment
+source venv/bin/activate
+
+install google cloud command line
+https://cloud.google.com/sdk/docs/install
+
+install dbt for google cloud
+https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup#local-oauth-gcloud-setup
+
+set up dbt project
+-inside the folder and the environment activated
+export BIGQUERY_PROJECT="analytics-engineering-zoomcamp"
+echo $BIGQUERY_PROJECT
+
+DBT autocomplete
+https://github.com/dbt-labs/dbt-completion.bash
+
+
